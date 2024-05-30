@@ -69,7 +69,7 @@ class HotelsController extends Controller
                'user_id' => Auth::user()->id,
                'room_name' => $room->name,
                'hotel_name' => $hotel->name,
-               // 'status' => $request->status,
+              
 
             ]);
 

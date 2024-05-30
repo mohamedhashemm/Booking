@@ -183,12 +183,7 @@ class AdminsController extends Controller
     public function storeRooms(Request $request)
     {
 
-        // Request()->validate([
-        //     'name' => 'required|max:40',
-        //     'image'=> 'required|max:888',
-        //     'description'=> 'required',
-        //     'location'=> 'required|max:40',
-        //    ]);
+       
 
         $destinationPath = 'assets/images/';
         $myimage = $request->image->getClientOriginalName();
